@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head><script src="./assets/js/color-modes.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="DigiArtOmnis blog posts">
+    <meta name="author" content="Liu Zhongyuan, Wang Guan">
+    <title>Blog - DigiArtOmnis</title>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/cover.css" rel="stylesheet">
+    <style>
+      .blog-post {
+        text-align: left;
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: rgba(255,255,255,0.1);
+        border-radius: 5px;
+      }
+      .blog-title {
+        margin-bottom: 10px;
+      }
+      .blog-meta {
+        font-size: 0.9rem;
+        color: #aaa;
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body class="d-flex h-100 text-center text-bg-dark">
+    <div class="cover-container wide-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0">DigiArtOmnis</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link fw-bold py-1 px-0" href="index.html">Home</a>
+            <a class="nav-link fw-bold py-1 px-0" href="paper.html">Paper</a>
+            <a class="nav-link fw-bold py-1 px-0" href="art.html">Art</a>
+            <a class="nav-link fw-bold py-1 px-0" href="course.html">Course</a>
+            <a class="nav-link fw-bold py-1 px-0" href="game.html">Game</a>
+            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="blog.html">Blog</a>
+            <a class="nav-link fw-bold py-1 px-0" href="aboutus.html">About Us</a>
+            <a class="nav-link fw-bold py-1 px-0" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="px-3">
+        <h1 class="mb-4">Blog</h1>
+        
+        <div class="blog-post">
+          <h3 class="blog-title"><a href="https://km.woa.com/articles/show/610279">Beyond Pixels: AI Agents for Intelligent Scene Generation</a></h3>
+          <div class="blog-meta">By DigiArtOmnis Team | August 1, 2024</div>
+          <p>Current generative AI excels at image creation but often struggles with complex, structured tasks like 3D scene design. Simply training on final outputs misses the crucial design *process* – the reasoning, constraints, and iteration involved. We believe the future lies in AI Agents that mimic the designer's workflow. Our project, IntelliScene, explores this by using AI agents to understand requirements, select assets, and arrange them logically within game environments, aiming to assist creators by automating parts of the scene generation pipeline.</p>
+          <a href="https://km.woa.com/articles/show/610279" class="btn btn-sm btn-outline-light">Read More</a>
+        </div>
+
+        <div class="blog-post">
+          <h3 class="blog-title"><a href="https://km.woa.com/articles/show/605780">Code Geass Fan Level Design: A White Box Encounter</a></h3>
+          <div class="blog-meta">By Lock Liu | May 29, 2024</div>
+          <p>This post details the design process for a "white box" combat encounter level inspired by Code Geass. The goal was to create a believable battle space with clear guidance, diverse cover and routes (including ground, underground, and elevated paths), multiple tactical options (frontal assault, underground flanking, stealth), and varied difficulty based on player choices. The design emphasizes environmental storytelling and balancing player experience through careful placement of enemies, cover, and resources. The process involved concept sketching, layout planning, defining key areas like observation points and different combat zones (small, large, medium scale), and iterating on enemy placement and pathing. AIGC tools were also used to generate a draft model for the Guren mech.</p>
+          <a href="https://km.woa.com/articles/show/605780" class="btn btn-sm btn-outline-light">Read More</a>
+        </div>
+        <div class="blog-post">
+          <h3 class="blog-title"><a href="https://km.woa.com/articles/show/604720">White Box Level Design Exercise: Exploring Space and Flow</a></h3>
+          <div class="blog-meta">By Lock Liu | May 13, 2024</div>
+          <p>This article documents a white-box level design exercise focused on creating interconnected spaces using basic geometry. Inspired by Elden Ring and floating islands, the project involves designing five distinct but linked areas (Plaza, Building Ruins, Great Sword Debris, Forest, Rooftop) within specific size constraints. The design emphasizes spatial concepts like positive/negative space, points/lines/planes, and guiding player flow through environmental cues and level layout. The author details the design process for each area, including sketches, layout, key features, item placement, and intended player pathing. It also explores using AIGC tools (like GPT-4o) for generating level graphs, concept art, and design descriptions, reflecting on the potential and limitations of AI in level design.</p>
+          <a href="https://km.woa.com/articles/show/604720" class="btn btn-sm btn-outline-light">Read More</a>
+        </div>
+      </main>
+
+      <footer class="mt-auto text-white-50">
+        <p>Copyright by Lock and Can</p>
+      </footer>
+    </div>
+  </body>
+</html>

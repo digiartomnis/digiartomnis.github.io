@@ -16,13 +16,60 @@
  * Base structure
  */
 
+/* 使 html, body 占满整个浏览器窗口 */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Moved from paper.html fix */
+}
+
+/* 让 body 成为纵向灵活布局容器 */
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* 仅控制 body 内的主轴对齐，此处可以保持默认 */
+  background-color: #212529; /* 原本就有的暗色背景 */
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  /* box-shadow is handled by ::before pseudo-element now */
+}
+
+/* Fix for background gradient issue and ensure body takes at least full height */
+body.d-flex.h-100 {
+  height: auto !important; /* Allow body to grow beyond 100vh if content is long */
+  min-height: 100vh;
 }
 
 .cover-container {
-  max-width: 42em;
+  flex: 1;                         /* 占据 body 中除 footer 以外的所有剩余空间 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;     /* Changed from center to flex-start */
+  /* align-items: center; */       /* Keep content centered horizontally within the container */
+  max-width: 42em;                 /* Default width */
+  position: relative;              /* Needed for z-index */
+  z-index: 1;                      /* Ensure content is above pseudo-element */
+  margin: 0 auto;
+  padding: 3rem;                   /* 可根据需要调整 */
+  text-align: center;
+}
+
+/* For pages that need wider content area */
+.cover-container.wide-container {
+  max-width: 60em;
+}
+
+/* Create a fixed pseudo-element for the shadow effect */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  pointer-events: none; /* Allow clicks to pass through */
+  z-index: 0;           /* Position behind content */
 }
 
 
@@ -47,4 +94,29 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+/* 让 footer 贴在底部 */
+footer {
+  margin-top: auto;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .nav-masthead {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .float-md-start,
+  .float-md-end {
+    float: none !important;
+    text-align: center;
+    display: block;
+  }
+}
+
+.nav-masthead {
+    margin-bottom: 2rem; /* 自由调整合适数值 */
 }
