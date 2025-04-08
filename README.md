@@ -14,7 +14,6 @@ We are passionate about supporting and nurturing **action-driven, innovative you
 
 We also continuously welcome students enthusiastic about areas such as **computer science, code engineering, computer graphics,multi-modal large models (LLM, VLM, etc.), multi-agent systems,AIGC, prompt engineering, engine development (UE, Unity),DCC pipelines (advanced Blender customization),game science, level design, AI-driven narrative design (including AI novel writing),environment art, architecture, interior/landscape design**, and more. Join us, and we will wholeheartedly support you on your journey—together, let's shape the future of AI.
 
-
 ## Explore Our Work
 
 - [Papers](https://digiartomnis.github.io/paper.html)
