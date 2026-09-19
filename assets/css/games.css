@@ -1,0 +1,73 @@
+.games-page {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.games-page h1 {
+  margin-bottom: .75rem;
+}
+
+.game-card {
+  margin: 2rem auto 0;
+  overflow: hidden;
+  text-align: left;
+  background: #182628;
+  border: 1px solid #46594f;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 3rem #0003;
+}
+
+.game-card__image {
+  display: block;
+  background: #294449;
+}
+
+.game-card__image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.game-card__body {
+  padding: clamp(1.25rem, 4vw, 2rem);
+}
+
+.game-card__genre {
+  color: #c8d59e;
+  font-size: .85rem;
+  letter-spacing: .06em;
+}
+
+.game-card h2 {
+  margin-bottom: 1rem;
+  font-size: clamp(1.35rem, 3.5vw, 2rem);
+  line-height: 1.5;
+  color: #f1e7c6;
+}
+
+.game-card__body > p {
+  max-width: 42rem;
+  line-height: 1.7;
+}
+
+.game-card__controls,
+.game-card__note {
+  color: #bdc9c6;
+  font-size: .9rem;
+}
+
+.game-card__play {
+  padding: .8rem 1.25rem;
+  white-space: normal;
+  background: #ead8a2;
+  border-color: #ead8a2;
+}
+
+.game-card__note {
+  margin: 1rem 0 0;
+}
+
+.game-card a:focus-visible {
+  outline: 3px solid #f1e7c6;
+  outline-offset: -4px;
+}
