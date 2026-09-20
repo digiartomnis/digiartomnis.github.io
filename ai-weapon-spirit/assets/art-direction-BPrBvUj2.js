@@ -1,0 +1,1 @@
+import{N as e}from"./chunk-G6HDNGY7-CSFFTCVI.js";var t=e,n=.94,r={bloom:1,bloomThreshold:2.4,bloomIntensity:.6,bloomSoftKnee:.5,bloomScatter:.7};export{t as n,r,n as t};
