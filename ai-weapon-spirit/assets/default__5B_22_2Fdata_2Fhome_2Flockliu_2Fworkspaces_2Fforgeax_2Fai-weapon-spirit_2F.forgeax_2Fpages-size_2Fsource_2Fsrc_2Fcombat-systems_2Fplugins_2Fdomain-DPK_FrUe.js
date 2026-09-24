@@ -1,0 +1,1 @@
+import{r as e}from"./module-plugin-BnpRRkIX.js";var t=e(`domain`);export{t as default};

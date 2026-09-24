@@ -1,0 +1,1 @@
+import{r as e}from"./module-plugin-BnpRRkIX.js";var t=e(`projectile`);export{t as default};
