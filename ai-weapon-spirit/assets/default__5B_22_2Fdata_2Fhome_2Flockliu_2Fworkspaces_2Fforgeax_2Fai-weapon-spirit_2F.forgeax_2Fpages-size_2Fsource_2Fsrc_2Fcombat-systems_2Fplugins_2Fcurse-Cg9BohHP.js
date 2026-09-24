@@ -1,1 +1,0 @@
-import{r as e}from"./module-plugin-BnpRRkIX.js";var t=e(`curse`);export{t as default};

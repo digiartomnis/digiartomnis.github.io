@@ -1,0 +1,1 @@
+import{r as e}from"./module-plugin-PLGcAil-.js";var t=e(`domain`);export{t as default};

@@ -14,15 +14,15 @@
     },
     {
       "path": "harness.tar.gz",
-      "sha256": "d251a30b9f0dcdaadc6160bd953199977e92cdbcfd1f872909140acd1e3d4276"
+      "sha256": "cdd4354c3590f30999b4b7e27d6043c719071d48f91fe9e38b8c79a13680d0bb"
     },
     {
       "path": "demo.js",
-      "sha256": "eba0f2ff6c533386cc0e3ec97483bbb3e314b5298f9ab2e7fa867254c223f9ea"
+      "sha256": "bd3e2eab1ac2dbea5d6a1b08426fc7b70b21e683bac467d2b576b7fe749e841a"
     }
   ],
   "profile": "weapon-spirit",
-  "imageBytes": 1494437,
+  "imageBytes": 1494533,
   "packages": [
     "@deepseek-ai/cordis",
     "@deepseek-ai/cordis-plugin-group",
@@ -119,8 +119,7 @@
     "offer_covenant",
     "quote_transmutation",
     "record_stance",
-    "apply_transmutation",
-    "repair_tuning"
+    "apply_transmutation"
   ],
   "persistence": "IndexedDB / native SessionPersistence",
   "protocol": "messages",
