@@ -1,0 +1,28 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DeepSeek Harness · 轨迹</title><script>(()=>{
+const pendingQueue=[]
+window.__ModuleLoader__={
+  mode:"queue",
+  pendingQueue,
+  load(registration){pendingQueue.push(registration)},
+  create(options){
+    if(this.mode!=="queue")throw new Error("client-modules: window.__ModuleLoader__.create called after module-system boot")
+    const index=pendingQueue.findIndex(registration=>registration.id==="@deepseek-ai/dsh-client-modules")
+    const registration=pendingQueue[index]
+    if(registration===undefined)throw new Error("client-modules: HTML did not preload @deepseek-ai/dsh-client-modules/client.js")
+    pendingQueue.splice(index,1)
+    const exports=registration.factory(specifier=>{
+      throw new Error('client-modules: @deepseek-ai/dsh-client-modules/client.js requested external "'+specifier+'" before the module system existed')
+    })
+    if(typeof exports!=="object"||exports===null||typeof exports.createClientModuleSystem!=="function"||typeof exports.apply!=="function"){
+      throw new Error("client-modules: @deepseek-ai/dsh-client-modules/client.js did not export the bootstrap module face")
+    }
+    return exports.createClientModuleSystem(this,{id:registration.id,exports},options)
+  }
+}
+})()</script>
+<link rel="preload" as="script" href="./native/ui-renderer.js">
+<link rel="preload" as="script" href="./native/locale.js">
+<link rel="preload" as="script" href="./native/ui-conversation.js">
+<link rel="preload" as="script" href="./native/ui-trajectory.js">
+<script src="./native/modules.js"></script>
+<script>window.__DSH_BOOT__={"rev":"0.1.7-rc.2","entries":[{"id":"@deepseek-ai/dsh-client-modules","url":"./native/modules.js","rev":"6fa57df9f12225ea0644ed22bc149eadf7c21e5b0b43a8683c4081567b96374f"},{"id":"@deepseek-ai/dsh-client-ui-renderer","url":"./native/ui-renderer.js","rev":"d92aaa305d56631110f46d7b9cd3b21547eaf2cb0c5ed34055391e0a46d9e2ce"},{"id":"@deepseek-ai/dsh-client-locale","url":"./native/locale.js","rev":"bad8fe9bfb07af2a60c80933be65ceafdaab5386f404fb264401c7e540a36e16"},{"id":"@deepseek-ai/dsh-client-ui-conversation","url":"./native/ui-conversation.js","rev":"40ef6d13ac73e06289cfc42ea941bd96739884f1727e0facdedc2e896495e960"},{"id":"@deepseek-ai/dsh-client-ui-trajectory","url":"./native/ui-trajectory.js","rev":"71fa00f0c3e92278e54e9203a819305f5abf7103d5b32114ad52afd467bb3b9c"}],"batches":[{"phase":"bootstrap","url":"./native/modules.js","rev":"6fa57df9f12225ea0644ed22bc149eadf7c21e5b0b43a8683c4081567b96374f","entries":["@deepseek-ai/dsh-client-modules"]},{"phase":"application","url":"./native/ui-renderer.js","rev":"d92aaa305d56631110f46d7b9cd3b21547eaf2cb0c5ed34055391e0a46d9e2ce","entries":["@deepseek-ai/dsh-client-ui-renderer"]},{"phase":"application","url":"./native/locale.js","rev":"bad8fe9bfb07af2a60c80933be65ceafdaab5386f404fb264401c7e540a36e16","entries":["@deepseek-ai/dsh-client-locale"]},{"phase":"application","url":"./native/ui-conversation.js","rev":"40ef6d13ac73e06289cfc42ea941bd96739884f1727e0facdedc2e896495e960","entries":["@deepseek-ai/dsh-client-ui-conversation"]},{"phase":"application","url":"./native/ui-trajectory.js","rev":"71fa00f0c3e92278e54e9203a819305f5abf7103d5b32114ad52afd467bb3b9c","entries":["@deepseek-ai/dsh-client-ui-trajectory"]}]}</script><link rel="stylesheet" href="./trajectory.css"></head><body><header class="harness-brand"><strong>DeepSeek Harness</strong><span>原生轨迹 · 0.1.7-rc.2</span></header><div id="trajectory-status" role="status">正在接入这件器物的轨迹…</div><main id="trajectory"></main><script type="module" src="./trajectory.js"></script></body></html>

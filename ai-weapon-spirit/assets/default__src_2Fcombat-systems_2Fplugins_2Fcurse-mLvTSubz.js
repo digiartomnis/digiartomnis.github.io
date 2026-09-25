@@ -1,0 +1,1 @@
+import{r as e}from"./module-plugin-BfyqmbQP.js";var t=e(`curse`);export{t as default};
