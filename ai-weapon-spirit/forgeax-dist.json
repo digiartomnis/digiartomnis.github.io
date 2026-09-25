@@ -21287,10 +21287,10 @@
       "sha256": "498c66514c2ccdd881119c4bb1d72716d146b6f33353f6f9ede03c1053f7564b"
     },
     {
-      "path": "assets/default__src_2Fruntime_2Fplay-bootstrap-BQQNDjsx.js",
+      "path": "assets/default__src_2Fruntime_2Fplay-bootstrap-Cijhe7J-.js",
       "mediaType": "text/javascript",
       "bytes": 9702,
-      "sha256": "b1b33024bc9bd84f3ece9d64fa02b6de0afb98295f7c163c6d25401e647deee0"
+      "sha256": "d2674a0c781b4e9cf1dc4831216cdfd48815977e9992a11d02cc76ea272c148d"
     },
     {
       "path": "assets/df6a4960-732c-5889-89f6-ab3f790c1011.pack.json",
@@ -22003,14 +22003,14 @@
     {
       "path": "assets/e702db8b-2b01-5168-b9b1-b4c263b6debf.pack.json",
       "mediaType": "application/json",
-      "bytes": 500,
-      "sha256": "d416375808fb8d01190502dcfe23e6c8a36c243724851e5011639d397e224f6b"
+      "bytes": 506,
+      "sha256": "3a73de2e9542cd6c887aaa1425d1d2c56096d5134a1467c197d9f9e773d635e4"
     },
     {
       "path": "assets/e702db8b-2b01-5168-b9b1-b4c263b6debf.receipt.json",
       "mediaType": "application/json",
       "bytes": 272,
-      "sha256": "7238aa547e828932787a5e08756b39e58940631c6e6021920a443828d18cea0d"
+      "sha256": "1c6fd46718f41867b4c9406d655ee48a23cfbcfb97426a7c4b5312f1a227c4fd"
     },
     {
       "path": "assets/e704234b-2fac-54ef-bab8-8faacff13f26.pack.json",
@@ -25163,10 +25163,10 @@
       "sha256": "782319f868015cc5383bed2ad1d3729a641ff11a84148e30d090657ab26bf5dc"
     },
     {
-      "path": "assets/index-C-LS9cMQ.js",
+      "path": "assets/index-CSdj4f99.js",
       "mediaType": "text/javascript",
       "bytes": 1436660,
-      "sha256": "e0a047dc0b2a23f64cef87c5385ef42ff8dc32effa7c0ec800d5dc5cf4e408f0"
+      "sha256": "1f9b939d44e517f61de00ff5a3442b960b814a3106f42a5012440297fcc85c51"
     },
     {
       "path": "assets/kernel-worker-runtime-Dmk9_uQT.js",
@@ -25211,10 +25211,10 @@
       "sha256": "b06e839316de83562c3017f376ebd93f4109b5aafe5e2ec01efc15e2db9a580d"
     },
     {
-      "path": "assets/playable-demo-BDeUiO0T.js",
+      "path": "assets/playable-demo-B14vFMgA.js",
       "mediaType": "text/javascript",
-      "bytes": 1751985,
-      "sha256": "68d790f38d1221586b3a3cd8cc1c3e4b5417bc41e1b8830105c84a5ef3bdcbb3"
+      "bytes": 1753148,
+      "sha256": "73d563122cffba4f53e29efd1c0d746b6b51660d954079300073725113b7cfce"
     },
     {
       "path": "assets/player-jump-whip-whoosh-CV8MCd66.wav",
@@ -25687,20 +25687,20 @@
     {
       "path": "index.html",
       "mediaType": "text/html",
-      "bytes": 20216,
-      "sha256": "12b9103ba54f02d0b8d0292ca59f421601292750e9f2e086a104a5916a9aa6b6"
+      "bytes": 14167,
+      "sha256": "316b4d3e451ece25ba01a54023ea7899a2643aed543c22e76c987cd88754fbb0"
     },
     {
       "path": "pack-index.json",
       "mediaType": "application/json",
       "bytes": 6030220,
-      "sha256": "4c2a81c6f02e451b2171f6937bc5e1ba4ea7709995fcaddac715e2d4ffa6129a"
+      "sha256": "eab5747238a4250f7f3f2c1662872137d2cf3f76e704cfa36615b5d93ddb1e64"
     },
     {
       "path": "plugin-program-inventory.json",
       "mediaType": "application/json",
-      "bytes": 755941,
-      "sha256": "c7a7e7ffc73331a1a8d758ca0f921b89b49500940f4a6ec2edfc3ceaa306d06f"
+      "bytes": 756064,
+      "sha256": "71f0b845ecb1845a117971cd5d48a84a7583a71498deb9cb428d765f3f739797"
     },
     {
       "path": "shaders/0008feed.bindings.json",
@@ -47415,10 +47415,10 @@
     "profile": "game"
   },
   "revision": {
-    "gameSha": "63b13db8ad71c1a9337a49625f29e7e2ee39f648",
+    "gameSha": "9046ee83e5c26fd47ca6a45258b2582eb765d63d",
     "engineSha": "d699bc46d1e55b8dbd34b0839f85378b575bc9e2",
     "dirty": false,
     "engineDirty": false,
-    "sourceTreeDigest": "sha256:f926d89dae19ff17e3aea1d0b6e4125f50e6078aab1ba3e7f4292fd2fd439855"
+    "sourceTreeDigest": "sha256:bbec6c4b3863c51f9ad2d45927a2556e6ff59367306b804aae32cad63e1a7698"
   }
 }
