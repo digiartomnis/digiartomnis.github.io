@@ -1,0 +1,1 @@
+import{t as e}from"./title-menu-Edes22_Z.js";export{e as installTitleMenu};

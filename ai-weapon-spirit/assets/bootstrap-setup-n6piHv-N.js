@@ -1,1 +1,0 @@
-import{t as e}from"./viewport-metrics-BRTsoXCo.js";import{a as t}from"./player-input-DvRm_7Jl.js";function n(n,r){e(n,r),r?.setPointerLockAllowed?.(!1),t(n,r?.registerCleanup)}export{n as t};

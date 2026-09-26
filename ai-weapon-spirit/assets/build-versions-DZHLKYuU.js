@@ -1,0 +1,1 @@
+import{d as e}from"./package-DLCoI0rP.js";import{version as t}from"./package-DNHq-uie.js";var n=Object.freeze({game:e,engine:t});function r(e=n){return`游戏 v${e.game} · ForgeAX 引擎 v${e.engine}`}export{r as n,n as t};

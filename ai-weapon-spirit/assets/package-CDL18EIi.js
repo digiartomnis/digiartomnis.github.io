@@ -1,0 +1,1 @@
+import{a as e,c as t,d as n,i as r,l as i,n as a,o,r as s,s as c,t as l,u}from"./package-DLCoI0rP.js";export{t as default,l as dependencies,a as description,s as devDependencies,r as engines,e as license,o as name,c as packageManager,i as scripts,u as type,n as version};
