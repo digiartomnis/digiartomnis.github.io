@@ -1,0 +1,1 @@
+import{a as e}from"./weapon-growth-DjSRchKT.js";function t(t){return{id:t.id,definitionId:t.definitionId,equipmentInstanceId:t.equipmentInstanceId??null,owner:t.owner,slot:t.slot,mountIndex:t.mountIndex,phase:t.phase,mountFormation:t.mountFormation??null,mountCount:t.mountCount,growth:t.growth?e(t.growth):null}}export{t};

@@ -1,0 +1,1 @@
+import{t as e}from"./game-ui-scrollbars-A77S2GV5.js";export{e as gameUiScrollbarStyles};

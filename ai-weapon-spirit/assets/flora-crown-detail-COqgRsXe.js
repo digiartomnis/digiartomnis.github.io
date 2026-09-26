@@ -1,0 +1,1 @@
+import{z as e}from"./flora-C989Tr8R.js";export{e as detailFloraCrowns};

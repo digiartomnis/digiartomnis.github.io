@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n,t as r}from"./water-reactions-BhEb60uW.js";export{r as WATER_REACTIONS_RESOURCE,t as WATER_REACTION_CAPACITY,n as WATER_REACTION_SECONDS,e as WaterReactionField};

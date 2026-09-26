@@ -1,0 +1,1 @@
+import{t as e}from"./title-lighting-8TIYSnTU.js";export{e as titleLighting};

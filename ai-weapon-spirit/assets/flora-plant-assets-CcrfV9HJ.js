@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./flora-plant-assets--_bX7oFA.js";export{n as FLORA_PLANT_ASSETS,e as FLORA_PLANT_TRUNKS,t as FLORA_TRUNK_SHAPES};

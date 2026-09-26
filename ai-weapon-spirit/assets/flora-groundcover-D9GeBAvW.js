@@ -1,0 +1,1 @@
+import{a as e,i as t,n,r,t as i}from"./flora-groundcover-Btta8KZj.js";export{i as DESERT_GRASS_SCALE_RANGE,n as GROUNDCOVER_MAX_PLANTS,r as GROUNDCOVER_SCALE_RANGE,t as groundcoverChoice,e as groundcoverPlans};

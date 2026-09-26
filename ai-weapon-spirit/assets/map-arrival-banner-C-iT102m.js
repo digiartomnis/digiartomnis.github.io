@@ -1,0 +1,10 @@
+var e=`
+.map-arrival{position:absolute;left:50%;top:16%;transform:translateX(-50%);max-width:min(620px,86vw);padding:16px 26px 18px;pointer-events:none;text-align:center;color:var(--ui-text,#d7e0d1);background:linear-gradient(90deg,transparent,var(--ui-panel,#173032e8) 18%,var(--ui-panel,#173032e8) 82%,transparent);opacity:0;transition:opacity .6s ease}
+.map-arrival.is-visible{opacity:1}
+.map-arrival small{display:block;letter-spacing:.3em;font-size:11px;color:var(--ui-muted,#a7b3a4)}
+.map-arrival h2{margin:4px 0 8px;font:26px/1.4 var(--ui-font-title,serif);letter-spacing:.16em}
+.map-arrival p{margin:3px 0;font-size:13px;line-height:1.7}
+.map-arrival p+p{color:var(--ui-muted,#a7b3a4)}
+@media(max-width:540px){.map-arrival{top:12%;padding:10px 14px}.map-arrival h2{font-size:19px}.map-arrival p{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.map-arrival{transition:none}}
+`;function t(t,n=6.5){let r=t.ownerDocument,i=r.createElement(`style`);i.textContent=e;let a=r.createElement(`section`);a.className=`map-arrival`,a.setAttribute(`role`,`status`),a.setAttribute(`aria-live`,`polite`),a.hidden=!0,t.append(i,a);let o,s,c=()=>{o!==void 0&&clearTimeout(o),s!==void 0&&clearTimeout(s),o=s=void 0},l=()=>{c(),a.classList.remove(`is-visible`),s=setTimeout(()=>{a.hidden=!0},650)};return{show(e){c();let t=e.narrative?[e.narrative.opening,e.narrative.development,e.narrative.turn]:[];a.replaceChildren();let i=r.createElement(`small`);i.textContent=`无尽劫境 · 第 ${e.wave} 波`;let s=r.createElement(`h2`);s.textContent=e.name,a.append(i,s,...t.map(e=>{let t=r.createElement(`p`);return t.textContent=e,t})),a.dataset.mapArrivalWave=String(e.wave),a.hidden=!1,requestAnimationFrame(()=>a.classList.add(`is-visible`)),o=setTimeout(l,n*1e3)},hide:l,dispose(){c(),a.remove(),i.remove()}}}export{t};

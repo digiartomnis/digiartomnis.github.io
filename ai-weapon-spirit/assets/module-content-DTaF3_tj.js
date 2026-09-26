@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./module-content-Cm_3RH6e.js";export{n as SHARED_COMBAT_AFFIXES,e as SHARED_COMBAT_CONTENT,t as authoredCombatModule};

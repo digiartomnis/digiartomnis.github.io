@@ -1,0 +1,1 @@
+import{t as e}from"./impact-feedback-profile-BmwP0z9V.js";export{e as validateImpactFeedback};

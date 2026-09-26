@@ -1,0 +1,1 @@
+function e(e,t,n){let r=(e,t)=>{let r=Math.imul(e,374761393)^Math.imul(t,668265263)^Math.imul(n,1442695041);return r=Math.imul(r^r>>>13,1274126177),((r^r>>>16)>>>0)/4294967296},i=Math.floor(e),a=Math.floor(t),o=e-i,s=t-a,c=o*o*(3-2*o),l=s*s*(3-2*s),u=r(i,a),d=r(i+1,a),f=r(i,a+1),p=r(i+1,a+1);return(u+(d-u)*c)*(1-l)+(f+(p-f)*c)*l}export{e as t};

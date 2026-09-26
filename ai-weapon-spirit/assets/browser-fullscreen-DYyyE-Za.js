@@ -1,0 +1,1 @@
+import{n as e,t}from"./browser-fullscreen-D6-wOx5Z.js";export{t as createBrowserFullscreenControls,e as isBrowserFullscreen};

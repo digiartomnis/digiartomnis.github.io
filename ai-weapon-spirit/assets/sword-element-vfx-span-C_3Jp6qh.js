@@ -1,0 +1,1 @@
+var e=Object.freeze([.08,1.35]),t=-.55;export{t as n,e as t};

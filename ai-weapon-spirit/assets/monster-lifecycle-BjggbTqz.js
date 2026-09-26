@@ -1,0 +1,1 @@
+import{r as e}from"./runtime-enemy-content-8cuFCXyC.js";var t=e;function n(e){return t[e]}function r(e,t){let r=n(e),i=Number.isFinite(t)?Math.max(0,t):0;for(let e=r.stages.length-1;e>=0;--e){let t=r.stages[e];if(i>=t.startYear)return t}return r.stages[0]}export{n,r,t};

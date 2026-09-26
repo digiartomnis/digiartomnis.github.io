@@ -1,0 +1,1 @@
+import{t as e}from"./title-menu-content-mwuHz_2H.js";export{e as TITLE_MENU_CONTENT};

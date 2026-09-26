@@ -1,0 +1,1 @@
+function e(e,t,n,r,i,a,o,s,c,l){if(e.directionY<.99)return e;let u=s+Math.max(Math.abs(t[0]),Math.abs(t[3]))*n*r+.08,d=e.x-a,f=e.z-o,p=Math.hypot(d,f);p<u&&(e.x=a+(p>1e-6?d/p:0)*u,e.z=o+(p>1e-6?f/p:-1)*u);let m=(t[2]-.14)*n*i;return e.y=Math.max(e.y,Math.max(c,l?.(e.x,e.z)??c)+.08-m),e}export{e as t};

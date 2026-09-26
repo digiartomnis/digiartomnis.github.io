@@ -1,0 +1,1 @@
+import{i as e}from"./codex-authoring-content-B8BoqxXo.js";import{n as t}from"./creature-mutation-C7aDwmWK.js";function n(n,r,i){let a=e.find(e=>e.mutationId===n&&e.adapterId===r);if(!a)throw Error(`[mutation-visuals] ${n}/${r}: missing authored monster adapter`);return t(n,a.visual,i)}export{n as t};

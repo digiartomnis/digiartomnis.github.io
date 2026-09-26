@@ -1,0 +1,1 @@
+function e(e,t,n){let r=e.indexOf(t);if(r>=0)return r;let i=e.findIndex(e=>e===null);return i<0?null:i}function t(e,t,n){return t.map((t,r)=>t!==null&&(t!==e[r]||n[r]===!0))}export{e as n,t};

@@ -1,0 +1,1 @@
+import{n as e,t}from"./game-loading-shell-DAeS01fO.js";export{t as GAME_LOADING_MARKUP,e as GAME_LOADING_STYLES};

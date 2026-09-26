@@ -1,0 +1,1 @@
+var e=[`metal`,`wood`,`water`,`fire`,`earth`],t=[`bamboo`,`badger`,`bird`,`root`,`woodcutter`,`banner-rider`,`arbalest`,`furnace`],n=[`germinal`,`juvenile`,`growing`,`mature`,`elder`,`ancient`],r=[`bamboo-spirit`,`rock-badger`,`wind-whistler`,`root-construct`,`lost-woodcutter`,`broken-banner-rider`,`formation-arbalest`,`sunken-furnace-guard`];export{n as i,t as n,r,e as t};

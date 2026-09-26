@@ -1,0 +1,1 @@
+function e(e){let t=e=>{e.cancelable&&e.preventDefault()},n={passive:!1};return e.addEventListener(`touchstart`,t,n),e.addEventListener(`touchmove`,t,n),()=>{e.removeEventListener(`touchstart`,t),e.removeEventListener(`touchmove`,t)}}export{e as t};

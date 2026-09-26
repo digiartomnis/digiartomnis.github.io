@@ -1,0 +1,1 @@
+import{n as e,t}from"./equipment-choice-BgmK2xIi.js";export{t as automaticAttacksAfterEquip,e as suggestedWeaponSlot};

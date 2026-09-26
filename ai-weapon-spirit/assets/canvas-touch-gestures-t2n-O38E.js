@@ -1,0 +1,1 @@
+import{t as e}from"./canvas-touch-gestures-h78cAMt-.js";export{e as installCanvasTouchGestures};

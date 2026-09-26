@@ -1,0 +1,1 @@
+import{t as e}from"./runtime-world-scope-sgVgikyV.js";export{e as RuntimeWorldScope};

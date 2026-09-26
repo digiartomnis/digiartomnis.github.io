@@ -1,0 +1,1 @@
+var e=Object.freeze({sizeMeters:[.13,.18,.09],centerFromWristMeters:[0,-.08,-.02]});export{e as t};

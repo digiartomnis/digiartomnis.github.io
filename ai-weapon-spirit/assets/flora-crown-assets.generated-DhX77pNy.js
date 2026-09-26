@@ -1,0 +1,1 @@
+var e={pine:{meshGuid:`d60cf96f-2995-550f-bdc0-1c39f213460d`,triangles:1140,needleCount:49,attachmentPoint:[0,0,0]}};export{e as t};

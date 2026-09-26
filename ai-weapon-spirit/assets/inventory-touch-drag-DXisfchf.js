@@ -1,0 +1,1 @@
+import{t as e}from"./inventory-touch-drag-DUWqY5gq.js";export{e as installInventoryTouchDrag};

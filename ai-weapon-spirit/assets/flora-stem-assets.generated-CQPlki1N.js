@@ -1,0 +1,1 @@
+var e={column:{meshGuid:`0988d6d6-bfa6-579a-a25b-3a76dc2a2acb`,tipRadiusRatio:1,triangles:20},taper:{meshGuid:`f5194994-8725-5242-ac47-8c3e808c437a`,tipRadiusRatio:.78,triangles:20},tip:{meshGuid:`3694bfd7-f67d-57d6-943f-50e602a1585b`,tipRadiusRatio:.35,triangles:20}};export{e as t};

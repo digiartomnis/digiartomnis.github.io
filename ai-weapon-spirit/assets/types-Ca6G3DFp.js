@@ -1,0 +1,1 @@
+var e=e=>`spirit/${encodeURIComponent(e)}`;export{e as t};

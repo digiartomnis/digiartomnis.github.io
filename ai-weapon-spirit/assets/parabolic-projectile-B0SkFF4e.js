@@ -1,0 +1,1 @@
+function e(e){return Math.max(0,Math.min(1,e))}function t(t,n,r,i){let a=e(r),o=1-a,s=4*a*o*i;return[t[0]*o+n[0]*a,t[1]*o+n[1]*a+s,t[2]*o+n[2]*a]}export{t};

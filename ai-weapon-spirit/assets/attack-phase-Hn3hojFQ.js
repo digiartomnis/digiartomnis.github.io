@@ -1,0 +1,1 @@
+function e(e,t,n){let r=e===`windup`?n.windupSeconds:e===`active`?n.activeSeconds:e===`recovery`?n.recoverySeconds:0;return r>0?Math.max(0,Math.min(1,1-t/r)):0}export{e as t};

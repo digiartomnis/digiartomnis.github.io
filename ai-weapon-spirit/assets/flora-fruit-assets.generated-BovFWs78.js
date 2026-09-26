@@ -1,0 +1,1 @@
+import{t as e}from"./flora-fruit-assets.generated-BShT04nx.js";export{e as FLORA_FRUIT_ASSETS};

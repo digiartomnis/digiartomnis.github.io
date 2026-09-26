@@ -1,0 +1,1 @@
+import{a as e,c as t,i as n,l as r,n as i,o as a,r as o,s,t as c}from"./types-DTZ2Z7yy.js";export{c as UNIT_ID_GENERATION_CAPACITY,i as UNIT_ID_INDEX_BITS,o as UNIT_ID_INDEX_CAPACITY,n as UNIT_ID_INDEX_MASK,e as UNIT_ID_MAX_GENERATION,a as emptyElementProfile,s as makeUnitId,t as unitIdGeneration,r as unitIdIndex};

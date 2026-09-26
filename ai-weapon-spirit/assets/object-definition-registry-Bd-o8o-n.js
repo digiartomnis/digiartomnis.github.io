@@ -1,0 +1,1 @@
+import{t as e}from"./object-definition-registry-zn7CjwBa.js";export{e as requireProgrammaticObjectDefinition};

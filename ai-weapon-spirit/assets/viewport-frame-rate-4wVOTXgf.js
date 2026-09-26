@@ -1,0 +1,1 @@
+import{t as e}from"./viewport-frame-rate-CaRA6GXU.js";export{e as ViewportFrameRate};

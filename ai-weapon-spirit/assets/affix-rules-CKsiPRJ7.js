@@ -1,0 +1,1 @@
+import{a as e,i as t,n,o as r,r as i,s as a,t as o}from"./affix-rules-DTBLJZCa.js";export{o as AFFIX_CONSUMER_VERSIONS,n as AFFIX_SETTINGS_KEY,i as AffixSettings,t as affixIsEnabled,e as affixUnavailableReason,r as freezeAffixRules,a as standardAffixRules};

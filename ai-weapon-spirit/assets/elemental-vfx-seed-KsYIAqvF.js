@@ -1,0 +1,1 @@
+var e=1e3,t=2,n=65535;function r(t,n,r=0){if(!Number.isInteger(t)||t<1||t>4||!Number.isFinite(n)||n<.001||n>64)throw Error(`Elemental VFX requires tier 1–4 and scale 0.001–64 metres`);return Math.round(n*e)*2**2+t-1+(r&16383)*262144>>>0}export{r as i,e as n,t as r,n as t};

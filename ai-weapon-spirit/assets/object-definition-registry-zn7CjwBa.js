@@ -1,0 +1,1 @@
+import{n as e}from"./core-object-definitions-Cjo5kIfA.js";function t(t,n){let r=e.get(t);if(!r)throw Error(`unknown programmatic object definition ${t}`);if(n===void 0)return r;let i=Array.isArray(n)?n:[n];if(!i.includes(r.kind))throw Error(`programmatic object definition ${t} has kind ${r.kind}; expected ${i.join(` or `)}`);return r}export{t};

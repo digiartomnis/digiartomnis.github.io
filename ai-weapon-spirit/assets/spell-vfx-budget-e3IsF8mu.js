@@ -1,0 +1,1 @@
+var e={fire:8,frost:3.5,earth:2.5,wood:2.5,metal:1.1,thunder:1},t=.44,n=1.72,r=3,i=1.6,a=2,o=3.6,s=.94,c=2.2,l=s+e.fire,u=4,d=6;export{c as a,n as c,d,e as f,o as i,s as l,u as n,l as o,a as r,r as s,i as t,t as u};

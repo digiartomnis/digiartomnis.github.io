@@ -1,0 +1,1 @@
+import{n as e,t}from"./render-quality-detect-B6byBsCD.js";export{t as collectRenderHardwareFacts,e as detectRenderQualityPreset};

@@ -1,0 +1,1 @@
+import{t as e}from"./generated-bindings-C70qPZ6H.js";export{e as forgeaxAudioProject};

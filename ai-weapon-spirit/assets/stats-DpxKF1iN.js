@@ -1,0 +1,1 @@
+import{a as e,c as t,i as n,l as r,n as i,o as a,r as o,s,t as c,u as l}from"./stats-28QOpX2Y.js";export{c as DEFAULT_STAT_BLOCK,i as dominantElement,o as effectiveElementResistance,n as effectiveWeaponCriticalChance,e as effectiveWeaponCriticalMultiplier,a as elementalMultiplier,s as fiveElementRelation,t as resolveDamage,r as resolveEnvironmentDamage,l as resolveStats};

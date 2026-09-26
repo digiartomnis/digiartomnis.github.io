@@ -1,0 +1,1 @@
+function e(e,t,n,r,i,a){let o=n*(.08+r%4*.035),s=i+r*2.399;return a.pos[0]=e.pos[0]+t.partOffsetX+(o===0?0:Math.cos(s)*o),a.pos[1]=e.pos[1]+t.partOffsetY+r%5*n*.055,a.pos[2]=e.pos[2]+t.partOffsetZ+(o===0?0:Math.sin(s)*o),a.scale=e.scale*t.partScale,a}export{e as t};

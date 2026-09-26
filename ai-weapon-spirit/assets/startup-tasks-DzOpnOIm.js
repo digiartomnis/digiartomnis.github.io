@@ -1,0 +1,1 @@
+async function e(e){let t=await Promise.allSettled(e.map(e=>Promise.resolve().then(e))),n=t.flatMap(e=>e.status===`rejected`?[e.reason]:[]);if(n.length)throw AggregateError(n,`Game startup resource loading failed`);return t.map(e=>e.value)}export{e as t};

@@ -1,0 +1,1 @@
+import{n as e,t}from"./object-lifecycle-C7QPXqhG.js";export{t as DEFAULT_COMBAT_UNIT_LIFECYCLE,e as ObjectLifecycleRuntime};

@@ -1,0 +1,1 @@
+import{BLOOM_ENABLED as e,TONEMAP_NEUTRAL as t}from"./render-C1XN8I9w.js";var n=t,r=.94,i={bloom:e,bloomThreshold:2.4,bloomIntensity:.6,bloomSoftKnee:.5,bloomScatter:.7};export{n,i as r,r as t};

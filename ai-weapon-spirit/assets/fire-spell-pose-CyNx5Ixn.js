@@ -1,0 +1,1 @@
+import{t as e}from"./fire-spell-pose-Bd9ZP1DC.js";export{e as fireSpellCoreScale};

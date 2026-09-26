@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./water-shore.pack-lib-CZHrOqR9.js";export{n as WATER_SHORE_RANGE_METERS,e as WATER_SHORE_VERSION,t as waterShoreDistances};

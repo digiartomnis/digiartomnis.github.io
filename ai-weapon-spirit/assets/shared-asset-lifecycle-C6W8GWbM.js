@@ -1,0 +1,1 @@
+import{a as e,i as t,n,r,t as i}from"./shared-asset-lifecycle-Z4hnbIwO.js";export{i as allocateRuntimeSharedAssetGrant,n as despawnRuntimeEntities,r as disposeRuntimeSharedAssetOwnership,t as releaseRuntimeSharedAssetOwners,e as retainRuntimeSharedAssetOwner};

@@ -1,0 +1,1 @@
+function e(e,t){let n=e.get(`woodTier`);if(!(!t||n===null)){if(n===`1`)return 1;if(n===`2`)return 2;throw Error(`[wood-campaign] woodTier must be 1 or 2 in GM verification`)}}export{e as t};

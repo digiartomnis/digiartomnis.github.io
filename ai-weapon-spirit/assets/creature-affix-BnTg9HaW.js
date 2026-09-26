@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n,t as r}from"./creature-affix-U4ycLsnB.js";export{r as MAX_CREATURE_AFFIXES,t as appendCreatureAffixes,n as creatureAffixParts,e as validateCreatureAffixVisual};

@@ -1,0 +1,1 @@
+import{t as e}from"./build-core-runtime-CvrCTg1U.js";export{e as BuildCoreRuntime};

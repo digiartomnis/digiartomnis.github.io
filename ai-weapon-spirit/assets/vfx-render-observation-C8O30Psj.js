@@ -1,0 +1,1 @@
+import{t as e}from"./vfx-render-observation-DWWR5v0G.js";export{e as observeVfxRenderFeature};

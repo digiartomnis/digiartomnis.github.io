@@ -1,0 +1,1 @@
+import{t as e}from"./apply-injections-bd0zEaFr.js";export{e as applyIndexInjections};

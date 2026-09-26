@@ -1,0 +1,1 @@
+import{t as e}from"./flora-stem-detail-BPGSypqt.js";export{e as floraStemSegment};

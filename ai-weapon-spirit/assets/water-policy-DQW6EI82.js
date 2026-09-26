@@ -1,0 +1,1 @@
+import{t as e}from"./water-policy-rInRkvgF.js";export{e as WATER_POLICY};

@@ -1,0 +1,1 @@
+import{B as e,H as t,U as n,V as r,W as i}from"./flora-C989Tr8R.js";export{e as anchorFloraFruit,r as anchorFloraLeaf,t as detailFloraLeaves,n as floraTriangleCount,i as limitFloraDetailTriangles};

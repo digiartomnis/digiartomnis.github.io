@@ -1,0 +1,1 @@
+import{t as e}from"./crowd-collision-DZ5OPwUk.js";export{e as CrowdCollisionSolver};

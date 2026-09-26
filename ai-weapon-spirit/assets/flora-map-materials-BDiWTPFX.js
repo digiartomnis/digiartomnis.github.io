@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n,t as r}from"./flora-map-materials-BrHIHTcy.js";export{r as FLORA_BLOCK_PROTOTYPE_GUID,t as FLORA_MAP_MATERIAL_GUIDS,n as FLORA_PLANT_RUNTIME_PLACEHOLDER_GUID,e as floraMapMaterialKey};

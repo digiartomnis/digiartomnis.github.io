@@ -1,0 +1,1 @@
+import{n as e,t}from"./game-scene-plugin-CxTtyD-H.js";export{t as GAME_SCENE_SERVICE,e as gameScenePlugin};

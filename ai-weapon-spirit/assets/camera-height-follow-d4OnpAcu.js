@@ -1,0 +1,1 @@
+var e=class{target;current;constructor(e){this.target=this.current=e}reset(e){this.target=this.current=e}update(e,t){return Math.abs(e-this.target)>.06&&(this.target=e),t<=0?this.current:(this.current+=(this.target-this.current)*-Math.expm1(-7*t),Math.abs(this.target-this.current)<5e-4&&(this.current=this.target),this.current)}};export{e as t};

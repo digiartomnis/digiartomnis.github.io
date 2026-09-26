@@ -1,0 +1,1 @@
+import{n as e,t}from"./spell-emitter-policy-WTvsLttA.js";export{t as SpellEmitterClock,e as spellEmitterAdmitted};

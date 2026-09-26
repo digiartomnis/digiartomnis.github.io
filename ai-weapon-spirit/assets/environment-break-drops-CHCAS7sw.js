@@ -1,0 +1,1 @@
+import{t as e}from"./environment-break-drops-CIxwoLGQ.js";export{e as awardEnvironmentBreakDrops};

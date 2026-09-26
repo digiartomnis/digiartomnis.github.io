@@ -1,0 +1,1 @@
+import{t as e}from"./figure-hand-frame-BTTowp1E.js";export{e as FIGURE_HAND_FRAME};

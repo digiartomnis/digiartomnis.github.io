@@ -1,0 +1,1 @@
+import{n as e,t}from"./particle-effect-dependencies-CJjDN-I1.js";export{t as acquireParticleRenderDependencies,e as particleRenderDependencies};

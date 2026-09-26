@@ -1,0 +1,1 @@
+function e(e){let t=new Set,n=new Set;return{add(e){t.add(e)},flush(r){n.clear();for(let e of r)n.add(e.gameObjectId);for(let r of t)n.has(r)||(e(r),t.delete(r))},clear(){t.clear(),n.clear()},get size(){return t.size}}}export{e as t};

@@ -1,0 +1,1 @@
+var e={tide:{guid:`bc790a28-4500-52a9-a75d-fcd6f66e2d1a`,statusId:`bd-tide-mark`,maximumTargets:32,particlesPerPlayer:8},wither:{guid:`7cc51f37-9766-5fab-b3a6-1e1a9b786915`,statusId:`bd-wither`,maximumTargets:32,particlesPerPlayer:8},ward:{guid:`eb64250e-b111-5e57-a495-2c7f1a2c5f59`,particlesPerPlayer:24}};export{e as t};

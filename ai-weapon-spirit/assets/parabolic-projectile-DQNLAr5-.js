@@ -1,0 +1,1 @@
+import{t as e}from"./parabolic-projectile-B0SkFF4e.js";export{e as sampleLowParabolicTrajectory};

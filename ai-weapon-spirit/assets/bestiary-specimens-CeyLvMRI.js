@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./bestiary-specimens-C1YFp99G.js";export{n as BESTIARY_SPECIMENS,e as getBestiarySpecimen,t as sampleSpecimenPartPose};

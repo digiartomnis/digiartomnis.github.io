@@ -1,0 +1,1 @@
+import{t as e}from"./viewport-metrics-BRTsoXCo.js";export{e as installViewportMetrics};

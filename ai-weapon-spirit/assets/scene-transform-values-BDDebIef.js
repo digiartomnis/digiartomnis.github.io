@@ -1,0 +1,1 @@
+import{n as e,t}from"./scene-transform-values-BtTCX_nc.js";export{t as sceneNumber3,e as sceneQuaternion};

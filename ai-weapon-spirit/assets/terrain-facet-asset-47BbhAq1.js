@@ -1,0 +1,1 @@
+var e=`edec1519-9d80-578d-9498-42be7abb976b`;export{e as t};

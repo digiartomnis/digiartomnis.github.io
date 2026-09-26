@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n,t as r}from"./elemental-vfx-seed-KsYIAqvF.js";export{r as ELEMENTAL_VFX_SCALE_MASK,t as ELEMENTAL_VFX_SCALE_UNITS_PER_METER,n as ELEMENTAL_VFX_TIER_BITS,e as elementalVfxSeed};

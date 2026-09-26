@@ -1,0 +1,1 @@
+var e=[`lianti`,`yinqi`,`zhuji`,`jindan`,`yuanying`,`huashen`,`fanxu`,`hedao`,`dacheng`,`feisheng`],t=[`xia`,`zhong`,`shang`],n=Object.freeze({xia:`下`,zhong:`中`,shang:`上`});export{t as n,n as r,e as t};

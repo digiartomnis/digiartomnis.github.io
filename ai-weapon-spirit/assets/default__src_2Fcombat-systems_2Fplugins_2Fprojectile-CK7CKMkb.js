@@ -1,1 +1,0 @@
-import{r as e}from"./module-plugin-BfyqmbQP.js";var t=e(`projectile`);export{t as default};

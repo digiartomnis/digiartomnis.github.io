@@ -1,0 +1,1 @@
+var e=`weapon-spirit.title-state`;export{e as t};

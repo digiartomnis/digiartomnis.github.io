@@ -1,0 +1,1 @@
+import{t as e}from"./flora-surface.pack-lib-DL0OGAvN.js";export{e as floraSurfaceColor};

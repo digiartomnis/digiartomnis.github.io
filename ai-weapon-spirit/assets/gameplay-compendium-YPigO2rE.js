@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n,t as r}from"./gameplay-compendium-p81DpuAm.js";export{r as GAMEPLAY_COMPENDIUM,t as GAMEPLAY_COMPENDIUM_KINDS,n as describeCompendiumModifier,e as gameplayCompendiumEntries};

@@ -1,0 +1,1 @@
+import{n as e,t}from"./terrain-recipe-3IiG2XVc.js";export{t as staticTerrainRecipeKey,e as terrainRecipeKey};

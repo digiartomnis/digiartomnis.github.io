@@ -1,0 +1,1 @@
+var e=.8,t=.1;function n(n,r=0){if(!Number.isFinite(r))throw Error(`Invalid spell movement penalty reduction`);if(n.mode===`stationary`)return 0;if(!Number.isFinite(n.speedPenalty)||n.speedPenalty<0||n.speedPenalty>1)throw Error(`Invalid spell movement penalty`);return Math.max(t,1-n.speedPenalty*(1-Math.max(0,Math.min(e,r))))}export{e as n,n as r,t};

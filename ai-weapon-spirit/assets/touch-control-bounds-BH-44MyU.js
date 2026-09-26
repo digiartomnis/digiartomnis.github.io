@@ -1,0 +1,1 @@
+import{n as e,t}from"./touch-control-bounds-CR950BuL.js";export{t as containsTouch,e as createTouchControlBoundsReader};

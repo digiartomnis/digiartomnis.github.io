@@ -1,0 +1,1 @@
+import{t as e}from"./title-state-DB76Ariz.js";export{e as TITLE_STATE_RESOURCE};
