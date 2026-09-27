@@ -1,0 +1,1 @@
+import{t as e}from"./water-animation-DPI1ZvbH.js";export{e as installWaterAnimation};

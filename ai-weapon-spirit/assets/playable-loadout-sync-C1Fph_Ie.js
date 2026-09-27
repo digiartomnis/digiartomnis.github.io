@@ -1,0 +1,1 @@
+var e=class{combat;identity;constructor(e){this.combat=e}sync(e,t,n){let r=JSON.stringify([e,t,n.equipmentInstanceIds,n.growthInstanceIds,n.loadoutSlotIndices]);return r===this.identity?(this.combat.refreshEquipmentTuning(e),`refreshed`):(this.combat.equip(e,t,!1,0,{},n),this.identity=r,`equipped`)}reset(){this.identity=void 0}};export{e as t};

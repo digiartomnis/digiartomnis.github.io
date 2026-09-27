@@ -1,0 +1,1 @@
+import{t as e}from"./wave-settlement-Xr1d3KvV.js";export{e as installWaveSettlement};

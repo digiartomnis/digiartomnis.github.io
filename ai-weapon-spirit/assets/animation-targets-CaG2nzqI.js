@@ -1,0 +1,1 @@
+import{n as e,t}from"./animation-targets-BfJkW10T.js";export{t as enemyAnimationTargetId,e as playerAnimationTargetId};

@@ -1,1 +1,0 @@
-import{t as e}from"./game-ui-ornaments-BCTkftwk.js";export{e as GAME_UI_ORNAMENT_VARIABLES};

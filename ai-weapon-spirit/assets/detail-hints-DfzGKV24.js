@@ -1,0 +1,1 @@
+import{n as e,t}from"./detail-hints-D2NVQZI-.js";export{t as DETAIL_HINT_STYLES,e as installDetailHints};

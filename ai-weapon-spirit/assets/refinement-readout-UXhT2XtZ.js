@@ -1,0 +1,1 @@
+function e(e){return`锻造进度 ${e.current} / ${e.required} · 距 +${e.nextLevel} 还差 ${e.remaining} 精华`}function t(e){return e.refinementAfter>e.refinementBefore?`升阶成功 · +${e.refinementBefore} → +${e.refinementAfter}`:`精华已注入 · 锻阶仍为 +${e.refinementAfter}`}export{e as n,t};

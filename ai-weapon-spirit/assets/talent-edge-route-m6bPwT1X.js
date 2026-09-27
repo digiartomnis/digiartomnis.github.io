@@ -1,0 +1,1 @@
+import{n as e,t}from"./talent-edge-route-DICGROXu.js";export{t as routeTalentEdge,e as talentEdgePath};

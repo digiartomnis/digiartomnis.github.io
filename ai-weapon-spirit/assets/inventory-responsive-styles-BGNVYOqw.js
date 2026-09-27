@@ -1,1 +1,0 @@
-import{t as e}from"./inventory-responsive-styles-D_Rp_3Uo.js";export{e as INVENTORY_RESPONSIVE_STYLES};

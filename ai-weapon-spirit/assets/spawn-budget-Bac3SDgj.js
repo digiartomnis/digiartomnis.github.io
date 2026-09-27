@@ -1,0 +1,1 @@
+import{t as e}from"./spawn-budget-Bpcnd5w-.js";export{e as SpawnBudgetRuntime};

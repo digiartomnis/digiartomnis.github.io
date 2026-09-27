@@ -1,0 +1,1 @@
+import{t as e}from"./service-CsB2lGC1.js";export{e as SpiritDialogueService};

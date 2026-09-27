@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n,t as r}from"./naming-state-DGwKa7iG.js";export{r as assertNamingIntent,t as assertNamingUnchanged,n as isSpiritNaming,e as normalizeSpiritName};

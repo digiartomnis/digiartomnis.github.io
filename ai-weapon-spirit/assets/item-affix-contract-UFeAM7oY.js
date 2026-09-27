@@ -1,1 +1,0 @@
-var e=[`weapon`,`gear`,`pocket-item`];export{e as t};

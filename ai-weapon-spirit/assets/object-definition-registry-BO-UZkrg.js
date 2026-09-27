@@ -1,0 +1,1 @@
+import{t as e}from"./object-definition-registry-DX-R8AmS.js";export{e as requireProgrammaticObjectDefinition};

@@ -1,0 +1,1 @@
+function e(e,t=64){return Number.isFinite(e.radiusMeters)&&e.radiusMeters>0&&e.radiusMeters<=t&&typeof e.stackingGroup==`string`&&e.stackingGroup.length>0&&e.stackingGroup.length<=128&&[`units`,`equipment`,`swords`,`spells`].includes(e.targets)&&(e.skillGuid===void 0||/^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(e.skillGuid))}export{e as t};

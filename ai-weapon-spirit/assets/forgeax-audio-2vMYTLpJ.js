@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n,t as r}from"./forgeax-audio-Coa0w-dl.js";export{r as attachAudioProfilerBridge,t as gameAudio,n as installForgeaxAudio,e as registerForgeaxAudioAgent};

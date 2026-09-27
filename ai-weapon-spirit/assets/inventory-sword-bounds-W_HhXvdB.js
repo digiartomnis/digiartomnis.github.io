@@ -1,1 +1,0 @@
-import{t as e}from"./inventory-sword-bounds-BFkqujz7.js";export{e as InventorySwordBounds};

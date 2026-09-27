@@ -1,0 +1,1 @@
+import{d as e}from"./package-BO3IJwQe.js";import{version as t}from"./package-Uk2kKIKb.js";var n=Object.freeze({game:e,engine:t});function r(e=n){return`游戏 v${e.game} · ForgeAX 引擎 v${e.engine}`}export{r as n,n as t};

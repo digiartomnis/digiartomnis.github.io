@@ -1,0 +1,1 @@
+import{r as e}from"./module-plugin-BhNhagc8.js";var t=e(`projectile`);export{t};

@@ -1,0 +1,1 @@
+import{t as e}from"./standard-dps-policy-B-GB4M6o.js";import"./standard-dps-contract-BvRk9kiK.js";export{e as validateStandardDpsPolicy};

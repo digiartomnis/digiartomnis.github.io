@@ -1,1 +1,0 @@
-import{n as e,t}from"./spell-solid-frame-n4bOIGGX.js";export{t as SpellSolidFrame,e as sampleSpellSolidFrame};

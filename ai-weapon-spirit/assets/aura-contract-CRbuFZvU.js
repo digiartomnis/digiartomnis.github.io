@@ -1,0 +1,1 @@
+import{t as e}from"./aura-contract-DTJguoC8.js";export{e as validAuraShape};

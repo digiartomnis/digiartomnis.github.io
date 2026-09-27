@@ -1,1 +1,0 @@
-import{n as e,t}from"./provider-settings-BsCAtNeD.js";export{t as SpiritProviderSettings,e as browserProviderSettings};

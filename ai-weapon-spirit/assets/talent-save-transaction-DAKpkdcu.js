@@ -1,0 +1,1 @@
+function e(e){let t=e.applyEffects(),n=!1;try{if(n=e.stage(e.next),!n)throw Error(e.failureMessage()||`天赋未能保存。`);e.publish()}catch(r){t();let i=e.stage(e.previous);throw n&&!i?AggregateError([r],`天赋效果已还原，但存档暂存区未能还原，请重新载入本局。`):r}}export{e as t};

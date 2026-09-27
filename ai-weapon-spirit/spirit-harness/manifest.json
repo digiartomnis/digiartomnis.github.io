@@ -1,7 +1,7 @@
 {
   "harnessVersion": "0.1.7-rc.2",
   "upstream": "unmodified npm packages installed with npm ci",
-  "lockSha256": "df4a209651671d70ea9a1814019887d64010f48276aedd028e17cb6633906aa6",
+  "lockSha256": "e8546f105f0789543b6f382210cb814815d4f18fa35765832cd1eb6b4b17a578",
   "browserClient": "@deepseek-ai/dsh-experimental-webworker-runtime/client",
   "artifacts": [
     {
@@ -10,15 +10,27 @@
     },
     {
       "path": "worker.js",
+      "sha256": "870e8874f6c081284b5b9df4a8523e777436b3065af12f1ef67deffb0a00500d"
+    },
+    {
+      "path": "native-worker.js",
       "sha256": "23c59df91acfff8ff3ac902419fc3a8b07befabea76a91e70144381edfc3e422"
     },
     {
+      "path": "browser-compat.mjs",
+      "sha256": "ca63e9c0799556d7567ee41c8c4abf977a26c42631c4a5e52be1bc8da260f965"
+    },
+    {
+      "path": "browser-compat.js",
+      "sha256": "1b2f01c735fd8e5c14b9337c9debaedaea697157fe21a39a3fef451e60542e70"
+    },
+    {
       "path": "harness.tar.gz",
-      "sha256": "cdaf4d7e67e06d462a4fc2a58c4f2efda1e9fccbc3f9e96a1eecb9a1cb42bc77"
+      "sha256": "e1008f8876f24e002c30b2f01f5b41b76d174de2c6e85930e302a1a68a10012b"
     },
     {
       "path": "demo.js",
-      "sha256": "88b7a7152bf77fd6a1a4696f53430584727f2b5c62f68f939e5367d0466a2698"
+      "sha256": "214617206a256f122e45822238ef1c3f8db967043a147004d50ec77b31840431"
     },
     {
       "path": "native/modules.js",
@@ -42,7 +54,7 @@
     },
     {
       "path": "trajectory.html",
-      "sha256": "e08e305f31a77348f692bd1a8cd7b73a2fa7d34b7f1e5f7ec4d3e37d00223ad0"
+      "sha256": "7c3da4e475fc9bd85899fc0a07cf3f42860ba8d509b20adfb7546f0ac9ef4ea9"
     },
     {
       "path": "make-MGZZBDCK.js",
@@ -282,7 +294,7 @@
     },
     {
       "path": "trajectory.js",
-      "sha256": "6d903e78662de273c1c96258be7eb49064019ec5d2418548181b7de0f9eb1e9e"
+      "sha256": "ee2b870dae749adc38b3e358ef5f664cc138954d6a35e5a825f9e721bb092796"
     },
     {
       "path": "chunk-2AISY6CW.js",
@@ -646,7 +658,36 @@
     ]
   },
   "profile": "weapon-spirit",
-  "imageBytes": 1540429,
+  "activePlugins": [
+    "@deepseek-ai/dsh-llm",
+    "@deepseek-ai/dsh-session",
+    "@deepseek-ai/dsh-session-projection",
+    "@deepseek-ai/dsh-system-prompt",
+    "@deepseek-ai/dsh-tools",
+    "@deepseek-ai/dsh-agent",
+    "@deepseek-ai/dsh-agent-loop",
+    "@deepseek-ai/dsh-credentials-local",
+    "@deepseek-ai/dsh-host-webserver",
+    "@deepseek-ai/dsh-client-connection",
+    "@deepseek-ai/dsh-typert-registry",
+    "@deepseek-ai/dsh-api-gateway",
+    "@deepseek-ai/dsh-commands",
+    "@deepseek-ai/dsh-llm-retry",
+    "@deepseek-ai/dsh-token-meter",
+    "@deepseek-ai/dsh-compaction-tool-result-pruner",
+    "@deepseek-ai/dsh-command-compact",
+    "@deepseek-ai/dsh-session-checkpoint-policy",
+    "@deepseek-ai/dsh-tool-call-timeout-policy",
+    "@deepseek-ai/dsh-repeat-tool-reminder",
+    "@deepseek-ai/dsh-session-stats",
+    "@deepseek-ai/dsh-session-turn-outline",
+    "@weapon-spirit/browser-harness"
+  ],
+  "extensions": [
+    "game-owned browser compatibility bootstrap",
+    "BasicCompactionEngine.summarize: spirit memory"
+  ],
+  "imageBytes": 1610082,
   "packages": [
     "@deepseek-ai/cordis",
     "@deepseek-ai/cordis-plugin-group",
@@ -665,9 +706,12 @@
     "@deepseek-ai/dsh-client-connection",
     "@deepseek-ai/dsh-client-modules",
     "@deepseek-ai/dsh-cmdline",
+    "@deepseek-ai/dsh-command-compact",
     "@deepseek-ai/dsh-commands",
     "@deepseek-ai/dsh-compaction",
+    "@deepseek-ai/dsh-compaction-basic",
     "@deepseek-ai/dsh-compaction-image-offload",
+    "@deepseek-ai/dsh-compaction-tool-result-pruner",
     "@deepseek-ai/dsh-credentials",
     "@deepseek-ai/dsh-credentials-local",
     "@deepseek-ai/dsh-deepseek-account",
@@ -680,12 +724,15 @@
     "@deepseek-ai/dsh-launch-environment",
     "@deepseek-ai/dsh-llm",
     "@deepseek-ai/dsh-llm-deepseek",
+    "@deepseek-ai/dsh-llm-retry",
     "@deepseek-ai/dsh-package-manifest",
     "@deepseek-ai/dsh-ptc-runtime",
+    "@deepseek-ai/dsh-repeat-tool-reminder",
     "@deepseek-ai/dsh-sandbox",
     "@deepseek-ai/dsh-sandbox-policy",
     "@deepseek-ai/dsh-scope",
     "@deepseek-ai/dsh-session",
+    "@deepseek-ai/dsh-session-checkpoint-policy",
     "@deepseek-ai/dsh-session-format",
     "@deepseek-ai/dsh-session-format-catalog",
     "@deepseek-ai/dsh-session-format-v0-to-v1",
@@ -694,10 +741,14 @@
     "@deepseek-ai/dsh-session-format-v3-to-v4",
     "@deepseek-ai/dsh-session-persistence",
     "@deepseek-ai/dsh-session-projection",
+    "@deepseek-ai/dsh-session-stats",
+    "@deepseek-ai/dsh-session-turn-outline",
     "@deepseek-ai/dsh-storage",
     "@deepseek-ai/dsh-storage-domain",
     "@deepseek-ai/dsh-system-prompt",
     "@deepseek-ai/dsh-timeout",
+    "@deepseek-ai/dsh-token-meter",
+    "@deepseek-ai/dsh-tool-call-timeout-policy",
     "@deepseek-ai/dsh-tools",
     "@deepseek-ai/dsh-typert-protocol",
     "@deepseek-ai/dsh-typert-registry",
@@ -744,7 +795,8 @@
     "offer_covenant",
     "quote_transmutation",
     "record_stance",
-    "apply_transmutation"
+    "apply_transmutation",
+    "rename_spirit"
   ],
   "oneShotTools": [
     "propose_map_intent"

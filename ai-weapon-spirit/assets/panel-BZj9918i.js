@@ -1,0 +1,1 @@
+import{t as e}from"./panel-BtBpouzT.js";export{e as installSpiritDialoguePanel};

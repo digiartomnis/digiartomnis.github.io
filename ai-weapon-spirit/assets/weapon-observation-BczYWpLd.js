@@ -1,0 +1,1 @@
+import{t as e}from"./weapon-observation-VG21RkX2.js";export{e as weaponSpiritObservation};

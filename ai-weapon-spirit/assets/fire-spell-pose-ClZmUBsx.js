@@ -1,0 +1,1 @@
+import{t as e}from"./fire-spell-pose-Dx_WnAMN.js";export{e as fireSpellCoreScale};

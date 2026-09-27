@@ -1,0 +1,11 @@
+function e(e,t){let n=e.querySelector(`:scope > template[data-stat-explanation]`);if(!n)return;let r=n.content.cloneNode(!0),i=r.querySelector(`[data-equipment-section-body]`);if(!i)return r;let a=i.dataset.equipmentSectionBody,o=t.querySelector(`template[data-equipment-section="${a}"]`);o&&i.append(o.content.cloneNode(!0));for(let e of Array.from(i.querySelectorAll(`[data-detail]`))){let t=document.createElement(`details`);t.className=`equipment-secondary-detail`;let n=document.createElement(`summary`),r=e.querySelector(`svg`);r&&n.append(r.cloneNode(!0));let i=document.createElement(`span`);i.textContent=e.getAttribute(`aria-label`)??e.textContent,n.append(i),t.append(n);let a=e.querySelector(`:scope > template[data-stat-explanation]`);if(a){let e=a.content.cloneNode(!0);e.querySelector(`.stat-explanation__header`)?.remove(),e.querySelectorAll(`[data-dismiss-detail]`).forEach(e=>e.remove()),t.append(e)}else{let n=document.createElement(`p`);n.textContent=e.dataset.detail??``,t.append(n)}if(e.dataset.affixId&&(t.dataset.affixId=e.dataset.affixId),e.dataset.enabled&&(t.dataset.enabled=e.dataset.enabled),e.tagName===`LI`){let n=document.createElement(`li`);n.append(t),e.replaceWith(n)}else e.replaceWith(t)}return r}var t=`
+.equipment-secondary-detail{border-bottom:1px solid var(--ui-card-line)}
+.equipment-secondary-detail>summary{display:flex;align-items:center;gap:8px;min-height:38px;cursor:pointer}
+.equipment-secondary-detail>summary svg{width:21px;height:21px;flex:none;color:var(--ui-jade)}
+.equipment-secondary-detail>p{white-space:pre-line}
+.item-detail-hint[data-section=true] .reliquary__affixes,.item-detail-hint[data-section=true] .icon-stat-grid{display:block}
+.equipment-secondary-detail[data-enabled=false]{opacity:.55}
+.item-detail-hint[data-section=true] .weapon-stat-grid{grid-template-columns:1fr}
+.item-detail-hint[data-section=true] .weapon-stat{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.item-detail-hint[data-section=true] .weapon-stat dd{font-size:13px;text-align:right}
+`;export{e as n,t};

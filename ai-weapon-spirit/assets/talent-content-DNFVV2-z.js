@@ -1,0 +1,1 @@
+import{t as e}from"./talent-content-gdlUFT8x.js";export{e as loadTalentContent};

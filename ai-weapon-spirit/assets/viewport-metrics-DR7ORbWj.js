@@ -1,0 +1,1 @@
+import{t as e}from"./viewport-metrics-If4bd5EX.js";export{e as installViewportMetrics};

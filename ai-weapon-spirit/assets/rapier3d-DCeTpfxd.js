@@ -1,0 +1,1 @@
+import{S as e}from"./dist-DkRjWyUs.js";var t=e(`rapier-3d`);export{t as default};

@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./scene-physics-B1lQdd7L.js";export{n as installKinematicUnitPhysics,e as installScenePhysics,t as syncKinematicUnitPhysics};
