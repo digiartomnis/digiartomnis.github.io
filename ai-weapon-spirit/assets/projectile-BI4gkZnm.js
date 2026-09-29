@@ -1,0 +1,1 @@
+import{r as e}from"./module-plugin-NbN_YX2v.js";var t=e(`projectile`);export{t};

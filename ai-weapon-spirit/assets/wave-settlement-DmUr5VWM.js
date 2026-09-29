@@ -1,0 +1,1 @@
+import{t as e}from"./wave-settlement-DtrayakM.js";export{e as installWaveSettlement};

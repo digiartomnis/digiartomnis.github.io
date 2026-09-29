@@ -1,0 +1,1 @@
+import{n as e,t}from"./talent-content-B7oBxp5k.js";export{t as loadTalentContent,e as loadTalentPresentation};

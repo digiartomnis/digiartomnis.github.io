@@ -1,0 +1,1 @@
+import{t as e}from"./title-menu-fzBQ9xz3.js";export{e as installTitleMenu};

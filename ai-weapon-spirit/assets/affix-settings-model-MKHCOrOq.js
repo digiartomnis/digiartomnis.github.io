@@ -1,0 +1,1 @@
+import{a as e,i as t,n,o as r,r as i,t as a}from"./affix-settings-model-C2hxzQ-i.js";export{a as AFFIX_LIBRARY_PAGE_SIZE,n as affixCardRecords,i as affixLibraryPage,t as affixLibraryRows,e as affixRecordNumber,r as affixRecordScope};

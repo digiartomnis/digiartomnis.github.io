@@ -1,1 +1,0 @@
-import{i as e,n as t,r as n,t as r}from"./effect-sigil-Bt8Mq1n6.js";export{r as readSigilLibrary,t as sigilLines,n as sigilSvg,e as statSigilId};

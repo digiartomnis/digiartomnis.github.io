@@ -1,0 +1,1 @@
+import{t as e}from"./elemental-spell-assets-CBwYuCSo.js";export{e as loadElementalSpellContent};

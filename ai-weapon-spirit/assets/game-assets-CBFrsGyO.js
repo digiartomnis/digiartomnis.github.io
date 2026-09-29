@@ -1,1 +1,0 @@
-import{i as e,n as t,r as n,t as r}from"./game-assets-DhJHFpoH.js";export{r as assets,t as categories,n as default,e as schemaVersion};

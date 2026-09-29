@@ -1,1 +1,0 @@
-import{n as e}from"./game-scene-plugin-o4Mr6HxT.js";export{e as default};

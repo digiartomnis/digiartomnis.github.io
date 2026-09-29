@@ -1,0 +1,1 @@
+import{n as e,t}from"./inventory-footprint-migration-CfDot5dB.js";export{t as legacyHouniaoFootprint,e as restoreInventoryPlacements};

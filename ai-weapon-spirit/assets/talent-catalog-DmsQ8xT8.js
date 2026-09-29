@@ -1,0 +1,1 @@
+import{n as e,t}from"./talent-catalog-Dy7h15x2.js";export{t as GENERATED_TALENT_ASSET_REFS,e as GENERATED_TALENT_DEFINITIONS};

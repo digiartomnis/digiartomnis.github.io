@@ -1,1 +1,0 @@
-import{n as e,t}from"./game-scene-plugin-o4Mr6HxT.js";export{t as GAME_SCENE_SERVICE,e as gameScenePlugin};

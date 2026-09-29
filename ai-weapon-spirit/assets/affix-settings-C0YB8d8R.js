@@ -1,0 +1,1 @@
+import{t as e}from"./affix-settings-Cqaq42Ky.js";export{e as createAffixSettingsPanel};

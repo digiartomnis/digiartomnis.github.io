@@ -1,0 +1,1 @@
+import{f as e}from"./gpu-enemy-swarm-BL87Hp1G.js";var t=96;function n(t){let n=/^endless-(\d+)$/.exec(t.get(`bench`)??``);if(!n)return null;let r=Number(n[1]);if(r<96||r>1536)throw Error(`[endless-benchmark] enemy capacity ${r} must be 96-${e}`);return{id:n[0],enemyCapacity:r}}export{n,t};

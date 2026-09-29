@@ -1,0 +1,1 @@
+import{t as e}from"./talent-panel-B7Ww6CzF.js";export{e as createTalentPanel};

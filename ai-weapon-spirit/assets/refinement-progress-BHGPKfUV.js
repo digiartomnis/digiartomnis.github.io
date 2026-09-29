@@ -1,1 +1,0 @@
-import{a as e}from"./core-growth-CAYZTe9s.js";import{p as t}from"./weapon-build-C9IC13DG.js";function n(n){let r=t(n).fusionEssence,i=e(n.refinementLevel),a=e(n.refinementLevel+1);return{refinementLevel:n.refinementLevel,nextLevel:n.refinementLevel+1,current:r-i,required:a-i,remaining:Math.max(1,a-r)}}export{n as t};

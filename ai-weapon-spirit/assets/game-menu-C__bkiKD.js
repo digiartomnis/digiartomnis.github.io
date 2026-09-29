@@ -1,0 +1,1 @@
+import{t as e}from"./game-menu-d-qcAzaI.js";export{e as installGameMenu};

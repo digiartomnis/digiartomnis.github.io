@@ -1,1 +1,0 @@
-import{a as e,i as t,n,r,t as i}from"./weapon-subject-DaZdnNcF.js";export{i as assertWeaponNaming,n as weaponInstanceName,r as weaponNamingCapability,t as weaponNamingMode,e as weaponSpiritSubject};

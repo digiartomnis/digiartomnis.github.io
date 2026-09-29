@@ -1,1 +1,0 @@
-import{n as e,t}from"./game-component-registry-BETB24pN.js";export{t as GAME_COMPONENTS,e as registerGameComponents};

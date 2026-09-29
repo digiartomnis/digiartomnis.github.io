@@ -1,1 +1,0 @@
-import{n as e,t}from"./runtime-item-affix-definitions-BDlneE4P.js";export{t as GENERATED_ITEM_AFFIX_AUTHORING_SOURCES,e as GENERATED_ITEM_AFFIX_DEFINITIONS};

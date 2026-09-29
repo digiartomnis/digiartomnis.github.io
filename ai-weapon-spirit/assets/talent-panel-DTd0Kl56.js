@@ -1,1 +1,0 @@
-import{t as e}from"./talent-panel-DenmCFr5.js";export{e as createTalentPanel};

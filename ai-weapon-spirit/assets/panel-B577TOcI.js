@@ -1,1 +1,0 @@
-import{t as e}from"./panel-vMyCGD3o.js";export{e as installSpiritDialoguePanel};

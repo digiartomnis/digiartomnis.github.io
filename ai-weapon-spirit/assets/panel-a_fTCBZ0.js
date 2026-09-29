@@ -1,0 +1,1 @@
+import{t as e}from"./panel-DY5uJH2i.js";export{e as installSpiritDialoguePanel};

@@ -1,1 +1,0 @@
-import{i as e,n as t,r as n,t as r}from"./model-matrices-Bhje6yaq.js";export{r as SWORD_MODEL_MATERIALS,t as swordModelAxialExtent,n as swordModelForVisual,e as writeSwordModelMatrices};
