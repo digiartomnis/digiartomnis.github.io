@@ -1,1 +1,0 @@
-import{t as e}from"./talent-projection-DSbBXPZh.js";export{e as projectTalents};

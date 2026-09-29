@@ -1,0 +1,1 @@
+import{t as e}from"./native-module-effects-TMopV941.js";export{e as nativeModuleEffectReferences};

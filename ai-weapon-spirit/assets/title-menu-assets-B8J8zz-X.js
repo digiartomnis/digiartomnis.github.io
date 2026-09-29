@@ -1,0 +1,1 @@
+import{n as e,t}from"./title-menu-assets-CyRPh4TI.js";export{t as preloadTitleMenuAssets,e as titleMenuCharacter};

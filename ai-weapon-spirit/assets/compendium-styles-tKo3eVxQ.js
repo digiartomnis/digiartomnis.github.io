@@ -1,0 +1,1 @@
+import{t as e}from"./compendium-styles-sUoB8v-O.js";export{e as COMPENDIUM_STYLES};

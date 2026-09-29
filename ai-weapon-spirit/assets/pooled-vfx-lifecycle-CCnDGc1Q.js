@@ -1,0 +1,1 @@
+import{t as e}from"./pooled-vfx-lifecycle-CdhrFlOk.js";export{e as createPooledVfxLifecycle};

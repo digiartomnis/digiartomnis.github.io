@@ -1,0 +1,1 @@
+import{t as e}from"./effect-grant-projection-DPvk3K5O.js";export{e as projectEffectGrants};

@@ -1,1 +1,0 @@
-import{n as e,t}from"./game-ui-theme-D_07kvTG.js";export{t as GAME_UI_THEME,e as GAME_UI_VARIABLES};

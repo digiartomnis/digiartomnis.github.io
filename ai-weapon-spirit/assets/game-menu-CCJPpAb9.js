@@ -1,0 +1,1 @@
+import{t as e}from"./game-menu-DQMATBAH.js";export{e as installGameMenu};

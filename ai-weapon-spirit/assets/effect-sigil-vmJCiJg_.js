@@ -1,1 +1,0 @@
-import{i as e,n as t,r as n,t as r}from"./effect-sigil-CZNP-By1.js";export{r as readSigilLibrary,t as sigilLines,n as sigilSvg,e as statSigilId};

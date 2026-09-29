@@ -1,1 +1,0 @@
-import{t as e}from"./title-menu-BIQlWoFu.js";export{e as installTitleMenu};

@@ -1,0 +1,1 @@
+import{n as e,t}from"./runtime-palette-CrC4cYUN.js";export{t as RUNTIME_PALETTE_MATERIAL_IDS,e as projectRuntimePalette};

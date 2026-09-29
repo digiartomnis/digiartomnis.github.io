@@ -1,0 +1,1 @@
+var e=600,t=class{baseFov;aspect=16/9;fov;constructor(e,t,n,r){this.baseFov=e,this.fov=e,this.resize(t,n,r)}resize(t,n,r){if(!(t>0&&n>0&&Number.isFinite(t)&&Number.isFinite(n)))return;this.aspect=t/n;let i=r||Math.min(t,n)<=e;this.fov=i&&t>n?2*Math.atan(Math.tan(this.baseFov/2)*n/t):this.baseFov}};export{t};

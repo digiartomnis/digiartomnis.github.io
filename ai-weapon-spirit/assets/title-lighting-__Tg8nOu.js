@@ -1,0 +1,1 @@
+import{t as e}from"./title-lighting-Dg-fkdiS.js";export{e as titleLighting};

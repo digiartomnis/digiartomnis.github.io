@@ -1,0 +1,1 @@
+import{a as e,i as t,n,o as r,r as i,s as a,t as o}from"./magic-prototypes-ClasosbR.js";export{o as MAGIC_CAST_MODULE_GUID,n as MAGIC_COMBAT_ASSETS,i as MAGIC_ENCHANTMENT_ASSETS,t as MAGIC_EVENT_ASSETS,e as MAGIC_PROTOTYPES,r as MAGIC_STAGE,a as MAGIC_STATE_ASSETS};

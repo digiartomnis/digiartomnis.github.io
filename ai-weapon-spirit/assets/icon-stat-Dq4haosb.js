@@ -1,0 +1,14 @@
+import{n as e}from"./game-ui-ornaments-HcVQH4qQ.js";import{r as t}from"./effect-sigil-Bt8Mq1n6.js";var n=e=>e.replace(/[&<>"']/g,e=>({"&":`&amp;`,"<":`&lt;`,">":`&gt;`,'"':`&quot;`,"'":`&#39;`})[e]);function r(n,r){let i=n?.get(r)??n?.get(`affix`);return i?t(i):e(`talent`)}function i(e){let{id:t,icon:r,label:i,value:a,detail:o,badge:s,valueAttribute:c,explanation:l,pin:u}=e;return`<span class="icon-stat" tabindex="0"${u?` role="button" aria-expanded="false" data-detail-pin`:``} data-detail-key="${n(t)}" data-numerical="${n(t)}" aria-label="${n(`${i} ${a}`)}" data-detail="${n(`${i}：${a}${o?`
+`+o:``}`)}"><span class="icon-stat__icon" aria-hidden="true">${r}${s?`<small>${n(s)}</small>`:``}</span><b${c?` ${c}`:``}>${n(a)}</b>${l?`<template data-stat-explanation><header class="stat-explanation__header"><strong>${n(i)}</strong><button type="button" data-dismiss-detail aria-label="关闭属性说明">×</button></header><div class="stat-explanation__body"><p>${n(o??``)}</p>${l}</div></template>`:``}</span>`}var a=`
+.icon-stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(92px,1fr));gap:3px 8px}
+.icon-stat{display:flex;align-items:center;justify-content:space-between;gap:7px;min-width:0;min-height:36px;padding:3px 6px;box-sizing:border-box;border:1px solid transparent;color:var(--ui-text)}
+.icon-stat:hover,.icon-stat:focus-visible{outline:none;border-color:var(--ui-card-line);background:color-mix(in srgb,var(--ui-jade) 8%,var(--ui-card-surface))}
+.icon-stat__icon{position:relative;display:block;flex:none;width:23px;height:23px;color:var(--ui-jade)}
+.icon-stat__icon svg{display:block;width:100%;height:100%}.icon-stat__icon small{position:absolute;right:-4px;bottom:-5px;font:600 9px var(--ui-font-number);color:var(--ui-text);background:var(--ui-card-surface);padding:0 1px}
+.icon-stat>b{font:600 13px/1.4 var(--ui-font-number);font-variant-numeric:tabular-nums;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stat-explanation__header{position:sticky;top:0;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 12px;border-bottom:1px solid var(--ui-card-line);background:var(--ui-card-surface)}
+.stat-explanation__header button{min-width:32px;min-height:32px;border:0;background:none;color:var(--ui-text);font-size:20px}
+.stat-explanation__body{padding:4px 12px 12px;white-space:normal}.stat-explanation__body p{font-size:11px;line-height:1.6;color:var(--ui-muted)}
+.stat-explanation__body summary{min-height:36px;cursor:pointer}.stat-explanation__body h4{margin:12px 0 4px}
+@media(pointer:coarse){.icon-stat{min-height:44px}}
+`;export{i,r as n,n as r,a as t};

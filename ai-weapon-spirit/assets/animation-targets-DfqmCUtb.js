@@ -1,0 +1,1 @@
+import{deriveAnimationTargetId as e}from"./animation-DVvD3VkK.js";function t(t){return e([`player.humanoid`,t])}function n(t,n){return e([`enemy.${t}`,n])}export{t as n,n as t};

@@ -1,0 +1,1 @@
+async function e(e){let t;try{await e.storage.commitCheckpoint(()=>{if(t=e.applyEffects(),!e.stage(e.next))throw Error(e.failureMessage()||`天赋未能保存。`)})}catch(n){if(!t)throw n;let r=[n];try{t()}catch(e){r.push(e)}try{e.restore(e.previous)}catch(e){r.push(e)}throw r.length>1?AggregateError(r,`天赋未保存，状态还原遇到错误，请重新载入本局。`):n}}export{e as t};

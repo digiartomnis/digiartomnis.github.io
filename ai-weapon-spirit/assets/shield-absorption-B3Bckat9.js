@@ -1,0 +1,1 @@
+function e(e,t,n){if(!(n>0))return 0;let r=Math.min(n,e.getHealth(t));return r>0&&e.adjustHealth(t,-r),r}export{e as t};

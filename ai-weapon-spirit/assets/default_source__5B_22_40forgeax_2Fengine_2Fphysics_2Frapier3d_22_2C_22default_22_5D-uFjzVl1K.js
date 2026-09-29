@@ -1,0 +1,1 @@
+import e from"./rapier3d-DQ80Jli8.js";export{e as default};

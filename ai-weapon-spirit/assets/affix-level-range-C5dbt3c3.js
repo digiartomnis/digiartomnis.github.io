@@ -1,0 +1,1 @@
+function e(e,n){if(!Number.isInteger(n)||n<1||n>100)throw Error(`物体等级必须为 L1–100`);return t(e,n)}function t(e,t){let n=+(e.operation===`more`),r=e.baseValue-n+e.valuePerTier*(t-1)/10;return[Math.round((n+r*.8)*1e5)/1e5,Math.round((n+r*1.2)*1e5)/1e5]}export{t as n,e as t};

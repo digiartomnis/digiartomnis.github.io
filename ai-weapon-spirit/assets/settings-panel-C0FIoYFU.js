@@ -1,1 +1,0 @@
-import{t as e}from"./settings-panel-BuqgK5YS.js";export{e as createSpiritSettingsPanel};

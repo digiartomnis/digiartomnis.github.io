@@ -1,0 +1,1 @@
+import{t as e}from"./affix-completion-42WCDhTk.js";export{e as affixCompletion};

@@ -1,1 +1,0 @@
-import{t as e}from"./viewport-metrics-If4bd5EX.js";import{a as t}from"./player-input-DT4qPPeS.js";function n(n,r){e(n,r),r?.setPointerLockAllowed?.(!1),t(n,r?.registerCleanup)}export{n as t};

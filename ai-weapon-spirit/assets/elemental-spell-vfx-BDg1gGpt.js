@@ -1,0 +1,1 @@
+import{t as e}from"./elemental-spell-vfx-C-3-GDrZ.js";export{e as createElementalSpellVfx};

@@ -1,0 +1,1 @@
+import{n as e}from"./growth-B6sZBQLi.js";var t=(t,n,r=0)=>t?t[0]+(t[1]-t[0])*e(n):r;export{t};

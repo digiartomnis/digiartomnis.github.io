@@ -1,1 +1,0 @@
-import{n as e,t}from"./provider-settings-Cd4Co3yJ.js";export{t as SpiritProviderSettings,e as browserProviderSettings};

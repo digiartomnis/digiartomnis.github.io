@@ -1,0 +1,1 @@
+import{t as e}from"./client-CS6qi7P0.js";export{e as SpiritDialogueClient};

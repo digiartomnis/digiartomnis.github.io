@@ -1,0 +1,1 @@
+import{n as e,t}from"./game-ui-ornaments-HcVQH4qQ.js";export{t as GAME_UI_ORNAMENT_VARIABLES,e as hudStatIcon};

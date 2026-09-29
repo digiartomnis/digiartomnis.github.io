@@ -1,0 +1,1 @@
+import{t as e}from"./magic-spell-runtime-XZpLogA5.js";export{e as MagicSpellExecutor};

@@ -1,1 +1,0 @@
-import{i as e,n as t,r as n,t as r}from"./icon-stat-BxcXtNLI.js";export{r as ICON_STAT_STYLES,t as attributeIcon,n as escapeStatText,e as renderIconStat};

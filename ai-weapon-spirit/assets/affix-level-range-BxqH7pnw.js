@@ -1,0 +1,1 @@
+import{n as e,t}from"./affix-level-range-C5dbt3c3.js";export{t as affixLevelRange,e as scaledAffixRange};

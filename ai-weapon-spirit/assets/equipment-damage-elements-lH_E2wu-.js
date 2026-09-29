@@ -1,0 +1,1 @@
+function e(e){let t=e.family===`returning-melee`?e.swordCombat?.infusions??[]:[],n=new Map,r=Math.max(0,1-t.reduce((e,t)=>e+t.ratio,0));r>0&&n.set(e.element,r);for(let e of t)e.ratio>0&&n.set(e.element,(n.get(e.element)??0)+e.ratio);return[...n].map(([e,t])=>({element:e,share:t}))}export{e as t};

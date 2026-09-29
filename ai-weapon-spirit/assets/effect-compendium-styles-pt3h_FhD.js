@@ -1,0 +1,1 @@
+import{t as e}from"./effect-compendium-styles-BGc2T7D2.js";export{e as EFFECT_COMPENDIUM_STYLES};

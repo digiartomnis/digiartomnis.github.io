@@ -1,0 +1,1 @@
+import{n as e,t}from"./spawn-budget-DMF7pOgV.js";export{t as GM_SPAWN_RATE_MULTIPLIER,e as SpawnBudgetRuntime};

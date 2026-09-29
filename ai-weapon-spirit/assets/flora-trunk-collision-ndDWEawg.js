@@ -1,1 +1,0 @@
-import{t as e}from"./flora-trunk-collision-C9CP94sB.js";export{e as appendFloraTrunkCollisions};

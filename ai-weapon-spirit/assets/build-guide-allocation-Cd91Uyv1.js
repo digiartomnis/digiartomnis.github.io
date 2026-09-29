@@ -1,0 +1,1 @@
+import{t as e}from"./build-guide-allocation-WUyYpx_s.js";export{e as allocateBuildGuideTalents};

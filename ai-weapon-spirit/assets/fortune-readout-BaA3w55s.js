@@ -1,0 +1,1 @@
+import{c as e,i as t}from"./effect-probability-B4aFJLWH.js";var n=e=>String(Number(e.toPrecision(12))),r=e(0),i=e(1)-r,a=`实际运倍率 L = ${n(r)} + 运点数 × ${n(i)}，始终大于 1；L = 1 仅作数学参照。基础概率 p 在 p × L ≤ ${n(t*100)}% 时，运后概率 = p × L；超过后平滑趋近 100%。原本不可能出现的结果仍不会出现，已有保底保持；非保底结果不会变为必得。`;export{a as t};

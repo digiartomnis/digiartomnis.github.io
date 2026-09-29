@@ -1,0 +1,1 @@
+import{n as e,t}from"./scene-asset-loader-DJ9_ueWY.js";export{t as instantiateSceneAssetWithReleasedGrant,e as loadAndInstantiateSceneAsset};

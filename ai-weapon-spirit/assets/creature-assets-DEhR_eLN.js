@@ -1,0 +1,1 @@
+import{t as e}from"./creature-assets-JfO_rx84.js";export{e as acquireCreatureAssets};

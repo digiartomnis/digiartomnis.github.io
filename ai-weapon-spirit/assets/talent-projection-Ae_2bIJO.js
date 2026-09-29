@@ -1,0 +1,1 @@
+import{t as e}from"./talent-projection-CeppsPuo.js";export{e as projectTalents};

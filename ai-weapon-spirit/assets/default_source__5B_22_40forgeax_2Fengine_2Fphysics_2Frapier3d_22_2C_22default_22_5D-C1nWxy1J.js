@@ -1,1 +1,0 @@
-import e from"./rapier3d-DCeTpfxd.js";export{e as default};

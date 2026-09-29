@@ -1,0 +1,1 @@
+import{t as e}from"./affix-record-D2a955uR.js";export{e as makeAffixRecordEvent};

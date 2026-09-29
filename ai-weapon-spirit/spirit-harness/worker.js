@@ -1,5 +1,6 @@
 // Game-owned compatibility boundary. The copied native Worker stays byte-identical.
 import { installHarnessBrowserCompat, inspectHarnessBrowserCapabilities } from './browser-compat.mjs';
+import { installHarnessThinkingPolicy } from './thinking-policy.mjs';
 const pending = [];
 const buffer = event => { pending.push(event); event.stopImmediatePropagation(); };
 addEventListener('message', buffer);
@@ -9,6 +10,7 @@ try {
   if (!capabilities.supported) {
     postMessage({ type: 'spirit-host-unavailable', missing: capabilities.missing });
   } else {
+    installHarnessThinkingPolicy();
     // The page waits for this handshake before sending the official init message.
     await import('./native-worker.js');
     removeEventListener('message', buffer);

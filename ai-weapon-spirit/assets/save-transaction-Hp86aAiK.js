@@ -1,1 +1,0 @@
-function e(e){let t=!1,n;try{e.storage.commitCheckpoint(()=>{if(t=!0,e.operation(),n=e.applyEffects(),!e.stage())throw Error(e.failureMessage()||`本局暂时不能持久保存，未执行此次修改。`)})}catch(r){if(!t)throw r;let i=[r];for(let t of[n,e.rollbackRuntime,e.restoreReaders])try{t?.()}catch(e){i.push(e)}throw i.length>1?AggregateError(i,`器灵修改未保存，状态还原遇到错误，请重新载入本局。`):r}}export{e as t};

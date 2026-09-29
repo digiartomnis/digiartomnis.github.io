@@ -1,0 +1,1 @@
+import{n as e,t}from"./talent-content-BfPwmCH8.js";export{t as loadTalentContent,e as loadTalentPresentation};

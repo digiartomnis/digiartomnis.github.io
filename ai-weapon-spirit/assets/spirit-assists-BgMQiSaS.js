@@ -1,0 +1,1 @@
+import{n as e}from"./runtime-spirit-assist-definitions-D3Q6tRRA.js";var t=e,n=Object.freeze(Object.fromEntries(t.map(e=>[e.id,e])));export{n,t};

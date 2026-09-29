@@ -1,0 +1,1 @@
+import{t as e}from"./effect-grant-compiler-Dr_DtfVi.js";export{e as compileEffectGrant};

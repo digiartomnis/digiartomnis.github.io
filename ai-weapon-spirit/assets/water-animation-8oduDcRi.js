@@ -1,0 +1,1 @@
+import{t as e}from"./water-animation-BiprWQo2.js";export{e as installWaterAnimation};

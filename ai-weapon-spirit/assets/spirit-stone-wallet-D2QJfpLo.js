@@ -1,0 +1,1 @@
+var e=2**53-1;function t(t,n){return t+Math.min(n,e-t)}function n(e){return[e.spiritStones,e.totalSpiritStones,e.spentSpiritStones].every(e=>Number.isSafeInteger(e)&&e>=0)&&e.totalSpiritStones===t(e.spentSpiritStones,e.spiritStones)}export{t as n,n as r,e as t};

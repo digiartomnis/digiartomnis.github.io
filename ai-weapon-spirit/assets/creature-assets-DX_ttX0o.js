@@ -1,1 +1,0 @@
-import{t as e}from"./creature-assets-WXKsImif.js";export{e as acquireCreatureAssets};

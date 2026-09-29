@@ -1,0 +1,1 @@
+import{t as e}from"./talent-panel-styles-BmY4MrvX.js";export{e as TALENT_PANEL_STYLES};

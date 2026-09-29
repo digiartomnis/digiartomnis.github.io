@@ -1,0 +1,1 @@
+import{n as e,t}from"./spell-solid-frame-DTJh__XS.js";export{t as SpellSolidFrame,e as sampleSpellSolidFrame};

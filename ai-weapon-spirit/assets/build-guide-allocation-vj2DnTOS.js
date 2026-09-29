@@ -1,1 +1,0 @@
-import{t as e}from"./build-guide-allocation-CWnjswrE.js";export{e as allocateBuildGuideTalents};

@@ -1,0 +1,1 @@
+import{t as e}from"./scene-content-data-BKVaurvY.js";function t(t,n){let r=e(t.entities.root?.components.ForgeAXAuthoringIntent);if(r===void 0)return;let i=r?.definition;if(r?.kind!==`attack-module`||i?.id!==n||!i.effectRefs?.length)throw Error(`[attack-module] ${n}: missing cooked effect references`);return i.effectRefs}export{t};

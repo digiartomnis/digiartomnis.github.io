@@ -1,0 +1,1 @@
+import{r as e}from"./module-plugin-Bu8ejM9U.js";var t=e(`spell`);export{t};

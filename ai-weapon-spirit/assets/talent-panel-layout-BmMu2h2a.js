@@ -1,0 +1,1 @@
+import{t as e}from"./talent-panel-layout-B3lMrcU0.js";export{e as layoutTalentBoard};

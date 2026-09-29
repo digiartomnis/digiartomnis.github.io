@@ -1,1 +1,0 @@
-function e(e,t,n,r,i){let a=t;for(let r=t+1;r<e.phases.length;r++)n<=e.phases[r].healthAtMost&&(a=r);if(a===t||a<0)return null;let o=e.phases[a];return{index:a,affixes:i>=o.minimumDifficultyRank?r.filter(e=>o.affixIds.includes(e.id)&&(e.minimumDifficultyRank??0)<=i):[]}}function t(e,t){return{...e,baseStats:{...e.baseStats,maxHealth:t}}}export{e as n,t};

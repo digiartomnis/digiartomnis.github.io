@@ -1,0 +1,1 @@
+import{t as e}from"./fortune-readout-BaA3w55s.js";export{e as FORTUNE_FORMULA_DESCRIPTION};

@@ -10,7 +10,7 @@
     },
     {
       "path": "worker.js",
-      "sha256": "870e8874f6c081284b5b9df4a8523e777436b3065af12f1ef67deffb0a00500d"
+      "sha256": "6204ce91b225217ad981fd586ac421e3c884eb4c30af73f3fa92a8131514ca16"
     },
     {
       "path": "native-worker.js",
@@ -25,12 +25,20 @@
       "sha256": "1b2f01c735fd8e5c14b9337c9debaedaea697157fe21a39a3fef451e60542e70"
     },
     {
+      "path": "thinking-policy.mjs",
+      "sha256": "14936374cfcf87098db305e600ebd9ae8576baaf5b5fcb8dec536b41c00bf380"
+    },
+    {
+      "path": "model-profiles.mjs",
+      "sha256": "7d081eabf826d5178aebb45db5431e687abf6ff7d0a0254c2e50871dad5201bd"
+    },
+    {
       "path": "harness.tar.gz",
-      "sha256": "e1008f8876f24e002c30b2f01f5b41b76d174de2c6e85930e302a1a68a10012b"
+      "sha256": "f853b5a18d272ae0c44d49b7b63698df2bf84dbb44db8ba9096dd3291e455df5"
     },
     {
       "path": "demo.js",
-      "sha256": "214617206a256f122e45822238ef1c3f8db967043a147004d50ec77b31840431"
+      "sha256": "4d66e890607ca166c51d9fa27415b1cc0e57163eeea05cdfb64f9b2c7561ffc5"
     },
     {
       "path": "native/modules.js",
@@ -685,9 +693,10 @@
   ],
   "extensions": [
     "game-owned browser compatibility bootstrap",
+    "game-owned Messages thinking policy",
     "BasicCompactionEngine.summarize: spirit memory"
   ],
-  "imageBytes": 1610082,
+  "imageBytes": 1617068,
   "packages": [
     "@deepseek-ai/cordis",
     "@deepseek-ai/cordis-plugin-group",
@@ -803,5 +812,22 @@
   ],
   "persistence": "IndexedDB / native SessionPersistence",
   "protocol": "messages",
-  "thinking": "disabled"
+  "thinking": "model-specific",
+  "thinkingPolicy": {
+    "revision": "2026-09-29.1",
+    "default": "enabled",
+    "defaultEffort": "low",
+    "efforts": [
+      "low",
+      "high",
+      "max"
+    ],
+    "families": [
+      "deepseek",
+      "claude",
+      "openai",
+      "other"
+    ],
+    "nativeOpenAIAdapter": false
+  }
 }

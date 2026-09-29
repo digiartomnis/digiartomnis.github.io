@@ -1,1 +1,0 @@
-import{t as e}from"./item-base-readout-DtpZVDuV.js";export{e as renderItemBaseReadout};
